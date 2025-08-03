@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But don't ignore these directories
+!mods/
+!mods/**
+!config/
+!config/**
+!shaderpacks/
+!shaderpacks/**
+!resourcepacks/
+!resourcepacks/**
+
+# Keep .gitignore itself
+!.gitignore

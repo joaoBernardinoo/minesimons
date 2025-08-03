@@ -1,0 +1,6 @@
+intervals = [5, 6]
+messages = ["Sends after five seconds, only once ever", "Sends after 6 seconds, 5 times every session"]
+links = ["https://www.google.com", "https://www.yahoo.com"]
+soft_limits = [1, 5]
+hard_limits = [1, 0]
+enabled = false

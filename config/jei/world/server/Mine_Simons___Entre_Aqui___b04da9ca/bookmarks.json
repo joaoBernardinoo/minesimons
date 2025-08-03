@@ -1,0 +1,9 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"sereneseasons:calendar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:crafting/kinetics/mechanical_press","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"ironfurnaces:augments/augment_generator","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:stone_brick_wall"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
