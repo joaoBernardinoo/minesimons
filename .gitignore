@@ -14,7 +14,10 @@
 
 # !minecraft/**
 !minecraft/config/
+!minecraft/mods/
+!minecraft/mods/**
 !minecraft/config/**
+!minecraft/config/
 !minecraft/shaderpacks/
 !minecraft/shaderpacks/**
 !minecraft/resourcepacks/
