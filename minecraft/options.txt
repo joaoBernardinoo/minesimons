@@ -22,7 +22,7 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"false"
-renderDistance:12
+renderDistance:10
 simulationDistance:7
 screenEffectScale:1.0
 soundDevice:"Built-in Audio Analog Stereo"
@@ -247,7 +247,7 @@ key_key.buildinggadgets2.anchor:key.keyboard.h
 key_key.buildinggadgets2.range:key.keyboard.r
 key_justzoom.keybinds.keybind.zoom:key.keyboard.z
 key_key.entityculling.toggle:key.keyboard.unknown
-soundCategory_master:0.33112582781456956
+soundCategory_master:0.10816777041942602
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.4295774647887324
