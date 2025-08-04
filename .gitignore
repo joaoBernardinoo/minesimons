@@ -2,14 +2,28 @@
 *
 
 # But don't ignore these directories
-!mods/
-!mods/**
-!config/
-!config/**
-!shaderpacks/
-!shaderpacks/**
-!resourcepacks/
-!resourcepacks/**
+!minecraft/
+!minecraft/icon.png
+!minecraft/servers.dat
 
+!minecraft/options.txt
+
+
+!flame/
+!flame/**
+
+# !minecraft/**
+!minecraft/config/
+!minecraft/config/**
+!minecraft/shaderpacks/
+!minecraft/shaderpacks/**
+!minecraft/resourcepacks/
+!minecraft/resourcepacks/**
+
+!.packignore
+!instance.cfg
+!mmc_pack.json
+!modlist.html
+!e9e662a4-93e4-48bc-a4d6-ab6b770708e4.png
 # Keep .gitignore itself
 !.gitignore
