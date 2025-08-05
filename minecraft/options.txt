@@ -25,7 +25,7 @@ renderClouds:"false"
 renderDistance:10
 simulationDistance:7
 screenEffectScale:1.0
-soundDevice:"Built-in Audio Analog Stereo"
+soundDevice:""
 autoJump:false
 operatorItemsTab:false
 autoSuggestions:true
@@ -161,7 +161,6 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
-key_key.block_factorys_bosses.dodge_roll:key.keyboard.z
 key_key.push_to_talk:key.mouse.left
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -191,11 +190,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.unknown
 key_key.ender_pack.toggle:key.keyboard.f9
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
@@ -248,7 +247,7 @@ key_key.buildinggadgets2.anchor:key.keyboard.h
 key_key.buildinggadgets2.range:key.keyboard.r
 key_justzoom.keybinds.keybind.zoom:key.keyboard.z
 key_key.entityculling.toggle:key.keyboard.unknown
-soundCategory_master:0.6677704194260486
+soundCategory_master:0.3609271523178808
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.4295774647887324
