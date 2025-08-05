@@ -1,0 +1,17 @@
+filename = 'bossesrise-1.21.1-neoforge-1.0.6.1.jar'
+name = "Bosses'Rise"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.6.1'
+
+[download]
+hash = 'e86759901eace36a331db275ce1a505e866c539a9749369ee829a04820783d4a9b5f52f5e1b588ae7df92e64e6c69a29474361599f325a7249e04deca309bbe6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/q2bV1Tm1/versions/4Y1z5jod/bossesrise-1.21.1-neoforge-1.0.6.1.jar'
+
+[update.modrinth]
+mod-id = 'q2bV1Tm1'
+version = '4Y1z5jod'

@@ -22,7 +22,23 @@
         "tool_damage_threshold": 0,
         "auto_refill_enable_per_slot_config": {
             "value": false
-        }
+        },
+        "visual_durability_notification": {
+            "value": false
+        },
+        "audio_durability_notification": {
+            "value": false
+        },
+        "visual_replace_success_notification": {
+            "value": false
+        },
+        "visual_replace_failed_notification": {
+            "value": false
+        },
+        "audio_replace_failed_notification": {
+            "value": false
+        },
+        "type_visual_replace_failed_notification": "HOTBAR"
     },
     "Hotkeys": {
         "sort_inventory": {
