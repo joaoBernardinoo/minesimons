@@ -31,7 +31,14 @@ echo [DEBUG] Verifying Git installation...
 git --version >nul 2>&1
 if errorlevel 1 (
     echo [ERROR] Git is not installed or not in PATH. Please install Git and try again.
-    winget install Git.git
+    echo.
+    echo Installation options:
+    echo 1. Download from: https://git-scm.com/download/win
+    echo 2. If you have winget: winget install Git.git
+    echo 3. If you have chocolatey: choco install git
+    echo 4. If you have scoop: scoop install git
+    echo.
+    echo After installation, restart this script.
     pause
     exit /b 1
 )
