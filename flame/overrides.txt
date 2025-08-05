@@ -89,6 +89,7 @@ config/fastleafdecay-server.toml
 config/fastpaintings-common.toml
 config/ferritecore-mixin.toml
 config/flywheel-client-1.toml.bak
+config/flywheel-client-2.toml.bak
 config/flywheel-client.toml
 config/fml.toml
 config/goblintraders-entities.toml
@@ -296,15 +297,6 @@ config/jade/jade.json
 config/jade/plugins.json
 config/jade/sort-order.json
 config/jamlib/known_suspicious_jars.txt
-config/jei/blacklist.json
-config/jei/ingredient-list-mod-sort-order.ini
-config/jei/ingredient-list-type-sort-order.ini
-config/jei/jei-client.ini
-config/jei/jei-colors.ini
-config/jei/jei-debug.ini
-config/jei/jei-mod-id-format.ini
-config/jei/recipe-category-sort-order.ini
-config/jei/world/local/Mundo_nuevo__2/bookmarks.json
 config/justzoom/config.txt
 config/konkrete/locals/de_de.local
 config/konkrete/locals/en_us.local
@@ -321,9 +313,6 @@ config/sound_physics_remastered/allowed_sounds.properties
 config/sound_physics_remastered/occlusion.properties
 config/sound_physics_remastered/reflectivity.properties
 config/sound_physics_remastered/soundphysics.properties
-config/spark/config.json
-config/spark/tmp/about.txt
-config/spark/tmp-client/about.txt
 config/towns_and_towers/structure_enable_or_disable_new.json5
 config/towns_and_towers/structure_rarity_new.json5
 config/villagernames/customnames.txt
