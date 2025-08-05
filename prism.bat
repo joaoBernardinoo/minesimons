@@ -39,7 +39,6 @@ if errorlevel 1 (
     echo 4. If you have scoop: scoop install git
     echo.
     echo After installation, restart this script.
-    pause
     exit /b 1
 )
 
