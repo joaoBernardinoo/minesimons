@@ -157,23 +157,11 @@ if not exist ".git" (
     echo [DEBUG] Attempting to checkout master branch...
     git checkout -b master origin/master
     if errorlevel 1 (
-        echo [DEBUG] Master branch checkout failed, trying main branch...
-        git checkout -b main origin/main
-        if errorlevel 1 (
-            echo [DEBUG] Main branch checkout failed, trying default branch...
-            git checkout -b main origin/HEAD
-            if errorlevel 1 (
-                echo [ERROR] Failed to checkout any remote branch
-                pause
-                exit /b 1
-            )
-            echo [SUCCESS] Checked out default branch as main
-        ) else (
-            echo [SUCCESS] Checked out main branch
-        )
-    ) else (
-        echo [SUCCESS] Checked out master branch
+        echo [ERROR] Failed to checkout master branch
+        pause
+        exit /b 1
     )
+    echo [SUCCESS] Checked out master branch
     
     echo [SUCCESS] Repository initialized and synced
 ) else (
@@ -218,26 +206,14 @@ if not exist ".git" (
         echo [DEBUG] Attempting to checkout master branch...
         git checkout master
         if errorlevel 1 (
-            echo [DEBUG] Master branch not found, trying main branch...
-            git checkout main
+            echo [DEBUG] Master branch not found, trying to checkout origin/master with force...
+            git checkout -f -b master origin/master
             if errorlevel 1 (
-                echo [DEBUG] Trying to checkout origin/master with force...
-                git checkout -f -b master origin/master
-                if errorlevel 1 (
-                    echo [DEBUG] Trying to checkout origin/main with force...
-                    git checkout -f -b main origin/main
-                    if errorlevel 1 (
-                        echo [ERROR] Could not checkout any branch
-                        pause
-                        exit /b 1
-                    )
-                    echo [SUCCESS] Force checked out main branch
-                ) else (
-                    echo [SUCCESS] Force checked out master branch
-                )
-            ) else (
-                echo [SUCCESS] Checked out main branch
+                echo [ERROR] Could not checkout master branch
+                pause
+                exit /b 1
             )
+            echo [SUCCESS] Force checked out master branch
         ) else (
             echo [SUCCESS] Checked out master branch
         )
