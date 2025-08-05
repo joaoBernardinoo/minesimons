@@ -72,6 +72,9 @@
     "entity": true,
     "entity_variant": true
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "easy_villagers": {
     "villager": true,
     "converter": true,
