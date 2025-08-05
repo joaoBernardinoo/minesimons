@@ -27,6 +27,9 @@
 !instance.cfg
 !mmc-pack.json
 !prism.bat
+!prism
+!prism.sh
+
 !modlist.html
 !e9e662a4-93e4-48bc-a4d6-ab6b770708e4.png
 # Keep .gitignore itself

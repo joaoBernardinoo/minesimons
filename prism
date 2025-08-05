@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Cross-platform launcher script for MineSimons Repository Update
+# Detects OS and runs the appropriate script
+
+echo "MineSimons Cross-Platform Launcher"
+echo "Detecting operating system..."
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Detect operating system
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" || "$OSTYPE" == "win32" ]]; then
+    # Windows detected - run prism.bat
+    echo "Windows detected - launching prism.bat"
+    BAT_PATH="$SCRIPT_DIR/prism.bat"
+    
+    if [ -f "$BAT_PATH" ]; then
+        cmd.exe /c "\"$BAT_PATH\""
+    else
+        echo "Error: prism.bat not found in $SCRIPT_DIR" >&2
+        exit 1
+    fi
+elif [[ "$OSTYPE" == "linux-gnu"* || "$OSTYPE" == "darwin"* ]]; then
+    # Linux/macOS detected - run prism.sh
+    echo "Linux/Unix detected - launching prism.sh"
+    SH_PATH="$SCRIPT_DIR/prism.sh"
+    
+    if [ -f "$SH_PATH" ]; then
+        # Make sure the script is executable
+        chmod +x "$SH_PATH"
+        bash "$SH_PATH"
+    else
+        echo "Error: prism.sh not found in $SCRIPT_DIR" >&2
+        exit 1
+    fi
+else
+    echo "Error: Unsupported operating system detected" >&2
+    echo "OS Type: $OSTYPE" >&2
+    exit 1
+fi
