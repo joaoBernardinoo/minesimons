@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Bernardino",
+      "uniqueId": "e7b46e8e-da4b-3b04-9a9a-178ce42b9f3a"
+    },
+    "time": 1754180197313,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/IXH8JPdR0L"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Bernardino",
+      "uniqueId": "e7b46e8e-da4b-3b04-9a9a-178ce42b9f3a"
+    },
+    "time": 1754180056264,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/gsqykibjhg"
+    }
+  }
+]

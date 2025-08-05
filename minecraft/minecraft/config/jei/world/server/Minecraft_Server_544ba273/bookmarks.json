@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"sereneseasons:calendar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:crafting/kinetics/wrench","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"artifacts:whoopee_cushion"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

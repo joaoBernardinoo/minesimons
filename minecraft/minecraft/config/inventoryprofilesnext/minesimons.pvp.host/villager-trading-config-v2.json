@@ -1,0 +1,64 @@
+{
+    "globalBookmarks": {
+        "armorer": [],
+        "butcher": [],
+        "cartographer": [],
+        "cleric": [],
+        "farmer": [],
+        "fisherman": [],
+        "fletcher": [],
+        "leatherworker": [],
+        "librarian": [],
+        "mason": [],
+        "shepherd": [],
+        "toolsmith": [],
+        "weaponsmith": [],
+        "nitwit": [],
+        "none": [],
+        "archeologist": []
+    },
+    "localBookmarks": {
+        "043e771f-c876-402a-882d-4ff5518bdf03": [
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:bone"
+            }
+        ]
+    },
+    "globalBookmarks1": {
+        "armorer": [],
+        "butcher": [],
+        "cartographer": [],
+        "cleric": [],
+        "farmer": [],
+        "fisherman": [],
+        "fletcher": [],
+        "leatherworker": [],
+        "librarian": [],
+        "mason": [],
+        "shepherd": [],
+        "toolsmith": [],
+        "weaponsmith": [],
+        "nitwit": [],
+        "none": [],
+        "archeologist": []
+    },
+    "globalBookmarks2": {
+        "armorer": [],
+        "butcher": [],
+        "cartographer": [],
+        "cleric": [],
+        "farmer": [],
+        "fisherman": [],
+        "fletcher": [],
+        "leatherworker": [],
+        "librarian": [],
+        "mason": [],
+        "shepherd": [],
+        "toolsmith": [],
+        "weaponsmith": [],
+        "nitwit": [],
+        "none": [],
+        "archeologist": []
+    }
+}
