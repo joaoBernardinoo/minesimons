@@ -3,7 +3,7 @@ ao:true
 biomeBlendRadius:2
 enableVsync:true
 entityDistanceScaling:1.0
-entityShadows:true
+entityShadows:false
 forceUnicodeFont:false
 japaneseGlyphVariants:false
 fov:0.375
@@ -16,8 +16,8 @@ fullscreen:true
 gamma:1.0
 graphicsMode:1
 guiScale:3
-maxFps:80
-mipmapLevels:4
+maxFps:60
+mipmapLevels:1
 narrator:0
 particles:0
 reducedDebugInfo:false
