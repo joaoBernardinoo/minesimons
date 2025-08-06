@@ -1,0 +1,25 @@
+instance copy.cfg
+minecraft/.mixin.out
+minecraft/Distant_Horizons_server_data
+minecraft/TrashSlotSaveState.json
+minecraft/coremods
+minecraft/defaultconfigs
+minecraft/downloads
+minecraft/fancymenu_data
+minecraft/kiwipacks
+minecraft/moddata
+minecraft/saves
+minecraft/schematics
+minecraft/screenshots
+minecraft/server-resource-packs
+minecraft/servers.dat_old
+minecraft/texturepacks
+minecraft/usercache.json
+minecraft/waypoints
+minecraft/flame
+minecraft/journeymap
+minecraft/crash-reports
+minecraft/logs
+minecraft/config
+
+!minecraft/config/voicechat/translations.properties
