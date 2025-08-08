@@ -1,7 +1,7 @@
 version:3955
 ao:true
 biomeBlendRadius:2
-enableVsync:true
+enableVsync:false
 entityDistanceScaling:1.0
 entityShadows:false
 forceUnicodeFont:false
@@ -16,14 +16,14 @@ fullscreen:true
 gamma:1.0
 graphicsMode:1
 guiScale:3
-maxFps:60
+maxFps:70
 mipmapLevels:1
 narrator:0
 particles:0
 reducedDebugInfo:false
-renderClouds:"true"
-renderDistance:10
-simulationDistance:8
+renderClouds:"false"
+renderDistance:8
+simulationDistance:6
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -38,7 +38,7 @@ realmsNotifications:true
 showSubtitles:false
 directionalAudio:true
 touchscreen:false
-bobView:true
+bobView:false
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
@@ -51,7 +51,7 @@ narratorHotkey:true
 resourcePacks:["vanilla","mod_resources","moonlight:mods_dynamic_assets","file/FreshAnimations_v1.9.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:2804:1ed8:11eb:7200:97ad:828a:7b76:6b43
-lang:en_us
+lang:pt_br
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
