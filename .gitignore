@@ -23,3 +23,4 @@ minecraft/logs
 minecraft/config
 instance.cfg
 !minecraft/config/voicechat/translations.properties
+minecraft/options.txt
