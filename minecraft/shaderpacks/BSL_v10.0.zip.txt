@@ -1,0 +1,9 @@
+#Fri Aug 08 12:20:35 BRT 2025
+AO=false
+LIGHT_SHAFT=false
+SHADOW=false
+SHADOW_COLOR=false
+SHADOW_FILTER=false
+TAA=false
+shadowDistance=128.0
+shadowMapResolution=512

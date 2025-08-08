@@ -1,0 +1,26 @@
+
+
+
+
+profile Saved activate HOT4
+	HOT1
+		"minecraft:diamond_pickaxe"
+	HOT2
+		"minecraft:diamond_sword"
+	HOT3
+		"minecraft:netherite_pickaxe" -> [ "minecraft:enchantments"("[\"minecraft:efficiency\"]") ]
+	HOT5
+		"simplyswords:netherite_greataxe" -> [ "minecraft:enchantments"("[\"minecraft:bane_of_arthropods\",\"minecraft:knockback\",\"minecraft:unbreaking\"]") ]
+	HOT6
+		"minecraft:lapis_lazuli"
+	HOT7
+		"new_shield_variants:tnt_shield"
+	HOT8
+		"minecraft:tuff_bricks"
+	HEAD
+		"aquaculture:neptunium_helmet"
+	CHEST
+		"minecraft:diamond_chestplate" -> [ "minecraft:enchantments"("[\"minecraft:thorns\",\"minecraft:blast_protection\"]") ]
+	FEET
+		"minecraft:diamond_boots"
+
