@@ -4,6 +4,7 @@
         "highlight_foused_items": {
             "value": false
         },
+        "highlight_foused_items_foreground": false,
         "first_run": false
     },
     "GuiSettings": {
