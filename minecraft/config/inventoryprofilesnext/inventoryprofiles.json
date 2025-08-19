@@ -1,6 +1,5 @@
 {
     "ModSettings": {
-        "sort_order": "CUSTOM",
         "highlight_foused_items": {
             "value": false
         },
@@ -14,10 +13,19 @@
         "enable_profiles_ui": {
             "value": false
         },
+        "enable_inventory_buttons": {
+            "value": false
+        },
         "show_fast_rename_checkbox": {
             "value": false
         },
-        "continuous_crafting_saved_value": false
+        "continuous_crafting_saved_value": false,
+        "show_sort_in_columns_button": {
+            "value": false
+        },
+        "show_sort_in_rows_button": {
+            "value": false
+        }
     },
     "AutoRefillSettings": {
         "tool_damage_threshold": 0,
