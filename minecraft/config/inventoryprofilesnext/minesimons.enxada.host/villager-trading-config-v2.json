@@ -1,6 +1,11 @@
 {
     "globalBookmarks": {
-        "armorer": [],
+        "armorer": [
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:coal"
+            }
+        ],
         "butcher": [],
         "cartographer": [],
         "cleric": [],
