@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","moonlight:mods_dynamic_assets","file/FreshAnimations_v1.9.2.zip","builtin/client/deep_aether_tooltips","builtin/overrides/deep_aether_additional_assets","twilightdelight:shader_compatible_fiery","file/§8§lDarkmode §f§lColourful Containers§8.zip","file/§5§lModded §f§lContainers §8§lDark§8.zip"]
-incompatibleResourcePacks:["builtin/client/deep_aether_tooltips","builtin/overrides/deep_aether_additional_assets","twilightdelight:shader_compatible_fiery","file/§5§lModded §f§lContainers §8§lDark§8.zip"]
+resourcePacks:["vanilla","mod_resources","moonlight:mods_dynamic_assets","file/FreshAnimations_v1.9.2.zip","builtin/client/deep_aether_tooltips","builtin/overrides/deep_aether_additional_assets","twilightdelight:shader_compatible_fiery","file/§8§lDarkmode §f§lColourful Containers§8.zip","file/§5§lModded §f§lContainers §8§lDark§8.zip","file/[1.19-1.21] Yuushya Release 0.20.0.zip","file/Yuushya Foliage Addon 0.11.0.zip","builtin/aether_tooltips"]
+incompatibleResourcePacks:["builtin/client/deep_aether_tooltips","builtin/overrides/deep_aether_additional_assets","twilightdelight:shader_compatible_fiery","file/§5§lModded §f§lContainers §8§lDark§8.zip","file/Yuushya Foliage Addon 0.11.0.zip"]
 lastServer:2804:1ed8:11eb:7200:97ad:828a:7b76:6b43
 lang:pt_br
 chatVisibility:0
